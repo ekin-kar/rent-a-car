@@ -18,21 +18,21 @@
               <font-awesome-icon class="h-12 text-red-500" icon="fa-solid fa-car-side" />
               <div class="flex justify-center items-center gap-2">
                 <span class="block text-4xl font-bold text-red-500">20</span>
-                <span class="text-gray-700 text-xl font-semibold">Car Types</span>
+                <span class="text-gray-700 text-2xl font-semibold">Car Types</span>
               </div>
             </div>
             <div class="text-center lg:text-left flex flex-col gap-2">
               <font-awesome-icon class="h-12 text-red-500" icon="fa-solid fa-store" />
               <div class="flex justify-center items-center gap-2">
                 <span class="block text-4xl font-bold text-red-500">85</span>
-                <span class="text-gray-700 text-xl font-semibold">Rental Outlets</span>
+                <span class="text-gray-700 text-2xl font-semibold">Rental Outlets</span>
               </div>
             </div>
             <div class="text-center lg:text-left flex flex-col gap-2">
               <font-awesome-icon class="h-12 text-red-500" icon="fa-solid fa-screwdriver-wrench" />
               <div class="flex justify-center items-center gap-2">
                 <span class="block text-4xl font-bold text-red-500">75</span>
-                <span class="text-gray-700 text-xl font-semibold">Repair Shops</span>
+                <span class="text-gray-700 text-2xl font-semibold">Repair Shops</span>
               </div>
             </div>
           </div>
