@@ -9,7 +9,7 @@
       <div class="flex justify-center mb-12">
         <img src="@/assets/display_car.png" alt="Cars" class="w-full max-w-5xl" />
       </div>
-      <div class="flex flex-col md:flex-row justify-center gap-6">
+      <div class="flex flex-col md:flex-row justify-center gap-6 px-16">
         <div class="text-center md:w-1/2 px-4">
           <h2 class="text-4xl font-bold mb-4">Why Choose Us</h2>
           <p class="text-2xl font-semibold mb-4">Best valued deals you will ever find</p>

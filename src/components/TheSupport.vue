@@ -18,9 +18,9 @@
         </div>
         <div>
           <button
-            class="bg-red-500 text-white py-6 px-12 rounded-md hover:bg-red-600 font-semibold text-sm"
+            class="bg-red-500 text-white py-4 px-8 rounded-md hover:bg-red-600 font-semibold text-sm shadow-[0_10px_15px_0_rgba(255,83,48,0.35)]"
           >
-            Book Ride
+            Book a Ride
           </button>
         </div>
       </div>
