@@ -7,6 +7,7 @@
   <WhyChoose />
   <TheFaq />
   <AppDownload />
+  <TheFooter />
 </template>
 
 <script>
@@ -18,6 +19,7 @@ import TheSupport from '@/components/TheSupport.vue'
 import WhyChoose from '@/components/WhyChoose.vue'
 import TheFaq from '@/components/TheFaq.vue'
 import AppDownload from '@/components/AppDownload.vue'
+import TheFooter from '@/components/TheFooter.vue'
 
 export default {
   name: 'App',
@@ -29,7 +31,8 @@ export default {
     TheSupport,
     WhyChoose,
     TheFaq,
-    AppDownload
+    AppDownload,
+    TheFooter
   }
 }
 </script>
