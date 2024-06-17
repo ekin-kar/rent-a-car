@@ -4,6 +4,8 @@
   <BookingForm />
   <TheAbout />
   <TheSupport />
+  <WhyChoose />
+  <TheFaq />
 </template>
 
 <script>
@@ -12,6 +14,8 @@ import HeroSection from '@/components/HeroSection.vue'
 import BookingForm from '@/components/BookingForm.vue'
 import TheAbout from '@/components/TheAbout.vue'
 import TheSupport from '@/components/TheSupport.vue'
+import WhyChoose from '@/components/WhyChoose.vue'
+import TheFaq from '@/components/TheFaq.vue'
 
 export default {
   name: 'App',
@@ -20,7 +24,9 @@ export default {
     HeroSection,
     BookingForm,
     TheAbout,
-    TheSupport
+    TheSupport,
+    WhyChoose,
+    TheFaq
   }
 }
 </script>

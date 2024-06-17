@@ -4,7 +4,8 @@
     <form class="grid grid-cols-1 md:grid-cols-3 gap-6" @submit.prevent>
       <div class="md:col-span-1">
         <label class="block text-gray-700 font-semibold mb-2">
-          <font-awesome-icon icon="fa-solid fa-car" class="mr-2 text-red-500" />Select Your Car Type
+          <font-awesome-icon icon="fa-solid fa-car" class="mr-2 text-custom-orange" />Select Your
+          Car Type
         </label>
         <select class="mt-2 p-2 border border-gray-300 rounded w-full">
           <option>Select your car type</option>
@@ -12,7 +13,8 @@
       </div>
       <div class="md:col-span-1">
         <label class="block text-gray-700 font-semibold mb-2">
-          <font-awesome-icon icon="fa-solid fa-map-pin" class="mr-2 text-red-500" />Pick-up Location
+          <font-awesome-icon icon="fa-solid fa-map-pin" class="mr-2 text-custom-orange" />Pick-up
+          Location
         </label>
         <select class="mt-2 p-2 border border-gray-300 rounded w-full">
           <option>Santa Monica - 2102 Lincoln Blvd</option>
@@ -20,7 +22,7 @@
       </div>
       <div class="md:col-span-1">
         <label class="block text-gray-700 font-semibold mb-2">
-          <font-awesome-icon icon="fa-solid fa-map-pin" class="mr-2 text-red-500" />Drop-off
+          <font-awesome-icon icon="fa-solid fa-map-pin" class="mr-2 text-custom-orange" />Drop-off
           Location
         </label>
         <select class="mt-2 p-2 border border-gray-300 rounded w-full">
@@ -29,25 +31,27 @@
       </div>
       <div class="md:col-span-2">
         <label class="block text-gray-700 font-semibold mb-2">
-          <font-awesome-icon icon="fa-solid fa-calendar" class="mr-2 text-red-500" />Pick-up Date
+          <font-awesome-icon icon="fa-solid fa-calendar" class="mr-2 text-custom-orange" />Pick-up
+          Date
         </label>
         <input type="date" class="mt-2 p-2 border border-gray-300 rounded w-full" />
       </div>
       <div class="md:col-span-1">
         <label class="block text-gray-700 font-semibold mb-2">
-          <font-awesome-icon icon="clock" class="mr-2 text-red-500" />Pick-up Time
+          <font-awesome-icon icon="clock" class="mr-2 text-custom-orange" />Pick-up Time
         </label>
         <input type="time" class="mt-2 p-2 border border-gray-300 rounded w-full" />
       </div>
       <div class="md:col-span-2">
         <label class="block text-gray-700 font-semibold mb-2">
-          <font-awesome-icon icon="fa-solid fa-calendar" class="mr-2 text-red-500" />Drop-off Date
+          <font-awesome-icon icon="fa-solid fa-calendar" class="mr-2 text-custom-orange" />Drop-off
+          Date
         </label>
         <input type="date" class="mt-2 p-2 border border-gray-300 rounded w-full" />
       </div>
       <div class="md:col-span-1">
         <label class="block text-gray-700 font-semibold mb-2">
-          <font-awesome-icon icon="clock" class="mr-2 text-red-500" />Drop-off Time
+          <font-awesome-icon icon="clock" class="mr-2 text-custom-orange" />Drop-off Time
         </label>
         <input type="time" class="mt-2 p-2 border border-gray-300 rounded w-full" />
       </div>

@@ -10,7 +10,9 @@ import {
   faCar,
   faCarSide,
   faClock,
+  faDollarSign,
   faMapPin,
+  faMoneyBills,
   faScrewdriverWrench,
   faStore,
   faUserSecret
@@ -23,7 +25,9 @@ library.add(
   faCar,
   faCarSide,
   faStore,
-  faScrewdriverWrench
+  faScrewdriverWrench,
+  faDollarSign,
+  faMoneyBills
 )
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app')
