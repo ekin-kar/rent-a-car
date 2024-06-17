@@ -2,7 +2,7 @@
   <div class="cta-banner relative h-64">
     <div class="absolute top-0 w-1/2 bg-slate-900 h-full"></div>
     <img
-      src="@/assets/cta_car_action.png"
+      src="@/assets/cta_car_action.webp"
       alt="Car"
       class="absolute top-0 right-0 w-1/2 h-full object-cover z-0"
     />

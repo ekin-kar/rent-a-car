@@ -2,7 +2,7 @@
   <section class="py-20">
     <div class="container mx-auto text-center">
       <div class="mt-8 flex flex-col lg:flex-row items-center lg:justify-center lg:space-x-12">
-        <img src="@/assets/about.jpg" alt="About Us" class="w-full max-w-sm mb-8 lg:mb-0" />
+        <img src="@/assets/about.webp" alt="About Us" class="w-full max-w-sm mb-8 lg:mb-0" />
         <div class="lg:text-left flex flex-col justify-between gap-4">
           <h2 class="text-4xl font-extrabold">About Company</h2>
           <h3 class="text-3xl font-bold">You start the engine and your adventure begins</h3>

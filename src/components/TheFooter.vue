@@ -24,6 +24,6 @@
         </form>
       </div>
     </div>
-    <p class="text-lg mb-6">&copy; 2024</p>
+    <p class="text-lg mb-6 font-bold">&copy; 2024</p>
   </footer>
 </template>
