@@ -3,5 +3,5 @@
 @tailwind utilities;
 body {
   font-family: 'Rubik', sans-serif;
-  letter-spacing: -0.6px;
+  color: #010103;
 }
