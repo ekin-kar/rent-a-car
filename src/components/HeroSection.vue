@@ -1,8 +1,8 @@
 <template>
-  <div class="py-20">
-    <img src="@/assets/banner_image.png" alt="bg" class="absolute top-0 right-0 -z-10" />
+  <div class="py-20 overflow-x-hidden">
+    <img src="@/assets/banner_image.png" alt="bg" class="absolute top-0 right-0 -z-10 fade-in" />
     <div class="container mx-auto flex flex-col md:flex-row items-center mt-16 px-2 md:px-6">
-      <div class="text-center md:text-left md:w-1/3">
+      <div class="text-container text-center md:text-left md:w-1/3 slide-in-left">
         <h1 class="text-4xl md:text-5xl font-extrabold mb-6">
           Save <span class="text-red-500">big</span> with our car rental
         </h1>
@@ -20,15 +20,54 @@
           </button>
         </div>
       </div>
-      <div class="mt-10 md:mt-0 md:w-2/3">
+      <div class="mt-10 md:mt-0 md:w-2/3 slide-in-right">
         <img src="@/assets/car.png" alt="Car" class="w-full md:w-full" />
       </div>
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'HeroSection'
+<style scoped>
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
-</script>
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 1s ease-out forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 1s ease-out forwards;
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in forwards;
+}
+</style>
