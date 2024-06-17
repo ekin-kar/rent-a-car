@@ -16,7 +16,7 @@
 
       <div class="flex flex-col py-4 md:w-1/3">
         <h2 class="text-3xl font-bold mb-2">Newsletter</h2>
-        <form class="flex flex-col mt-2">
+        <form class="flex flex-col mt-2" @submit.prevent>
           <input type="email" placeholder="Enter your email" class="p-3 rounded-md bg-slate-300" />
           <button type="submit" class="bg-custom-orange text-white p-3 rounded-md mt-2">
             Subscribe
